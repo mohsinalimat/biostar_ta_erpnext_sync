@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-03 21:36:37.142803",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "biostar_server_login_section",
+  "username",
+  "password",
+  "column_break_qfpd",
+  "ta_url",
+  "erpnext_auth_section",
+  "api_key",
+  "column_break_tcze",
+  "api_secret"
+ ],
+ "fields": [
+  {
+   "fieldname": "biostar_server_login_section",
+   "fieldtype": "Section Break",
+   "label": "Biostar Server Login"
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Username",
+   "reqd": 1
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "in_list_view": 1,
+   "label": "Password",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_qfpd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Time and Attendance URL on the biostar server.",
+   "fieldname": "ta_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "TA URL",
+   "options": "URL",
+   "reqd": 1
+  },
+  {
+   "fieldname": "erpnext_auth_section",
+   "fieldtype": "Section Break",
+   "label": "ERPNext Auth"
+  },
+  {
+   "fieldname": "api_key",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "API Key",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tcze",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "api_secret",
+   "fieldtype": "Password",
+   "label": "API Secret",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-04-03 21:50:02.400311",
+ "modified_by": "Administrator",
+ "module": "Biostar Sync",
+ "name": "Biostar Sync Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
